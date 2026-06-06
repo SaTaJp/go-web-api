@@ -2,6 +2,11 @@
 
 本プロジェクトは、4人チームで開発した英語スラング辞書APIです。
 
+## Original Repository
+本リポジトリはチーム開発プロジェクトのフォークです。
+Original Repository:
+https://github.com/recursion-gowebapi/go-web-api
+
 ### 開発期間
 2026年5月16日 ～ 2026年5月30日
 
