@@ -1,5 +1,31 @@
 # go-web-api
 
+本プロジェクトは、4人チームで開発した英語スラング辞書APIです。
+
+### 開発期間
+2026年5月16日 ～ 2026年5月30日
+
+### 担当箇所
+
+#### データ設計
+* slangs.json のデータ構造設計
+* スラング情報のカテゴリ分類設計
+* meaning、scene、emotion_categories 等の属性定義
+* APIで利用しやすいJSONスキーマ設計
+* Go構造体との整合性を考慮したデータモデル設計
+
+#### Search API
+* `GET /api/slangs/search?keyword={word}` の実装
+* キーワード検索機能の実装
+* normalizeText関数を用いた検索処理の実装
+* 大文字小文字および前後空白を考慮した検索機能の実装
+
+#### Random Slang API
+* `GET /api/slangs/random?count={number}` の実装
+* countパラメータのバリデーション処理
+* ランダムシャッフル機能の実装
+* JSONレスポンス生成処理の実装
+
 ## Overview
 
 Native Slang API は、日本人英語学習者向けの英語スラング辞書 API です。
